@@ -6,12 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./parent-second.component.scss']
 })
 export class ParentSecondComponent {
-  public dataParent!:string;
-  public data: any = '';
 
-  constructor(){
-    setInterval(()=>{
-      console.log(this.dataParent);
-    },1000)
-  }
 }

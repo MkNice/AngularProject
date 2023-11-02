@@ -32,14 +32,6 @@ import { ParentFourthComponent } from './fourthCouple/parent-fourth/parent-fourt
   ],
   exports: [
     DecoratorsInputOutputComponent,
-    ChildFirstComponent,
-    ChildSecondComponent,
-    ChildThirdComponent,
-    ChildFourthComponent,
-    ParentFirstComponent,
-    ParentSecondComponent,
-    ParentThirdComponent,
-    ParentFourthComponent,
   ]
 })
 export class DecoratorsInputOutputModule { }

@@ -12,6 +12,6 @@ export class ChildSecondComponent {
     this.data.emit(event);
   }
   public onChangeInput(event:Event): void {
-    this.data.emit(event);
+    this.data.emit((event.target as HTMLInputElement).value);
   }
 }

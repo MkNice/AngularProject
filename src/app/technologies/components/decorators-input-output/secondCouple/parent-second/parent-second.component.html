@@ -1,2 +1,4 @@
 <app-child-second (data)='dataParent= $event'></app-child-second>
 {{dataParent}}
+<input ngModel (ngModelChange)="data = ($event)">
+{{data}}
